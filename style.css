@@ -52,3 +52,30 @@ main .right {
 	
 }
 
+footer {
+	overflow: auto;
+	
+}
+
+footer .contact {
+  float: left;
+  width: 570px;
+}
+
+footer .sitemap {
+  float: right;
+  width: 285px;
+}
+
+.sitemap ul{
+    width:285px;
+}
+
+
+.sitemap li{
+    float:left;
+	width: 136px;
+	margin:0 6px 6px 0;
+   
+}
+
