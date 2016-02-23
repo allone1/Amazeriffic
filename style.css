@@ -60,14 +60,14 @@ a:hover {
 
 header, main, footer {
   min-width: 855px;
-  padding: 5px 10px 5px 10px;
- 
+  padding: 10px 10px 5px 10px;
+   
 }
 
 header .container, main .container, footer .container {
   max-width: 855px;
   margin: auto;
-  padding: 5px 10px 5px 10px;
+  padding: 10px 10px 5px 10px;
     
 }
 
@@ -138,3 +138,16 @@ footer .sitemap {
 	margin:0 6px 6px 0;
    
 }
+
+
+.faqh3 	{
+	padding-bottom: 20px;
+	
+}
+
+.quest  {
+	color: #6dc7d0;
+	
+}
+
+
