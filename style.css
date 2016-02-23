@@ -6,14 +6,40 @@ body {
   font-family: 'Droid Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
+  font-size: 100%;
   
 }
 
-h1, h2, h3, h4 {
+h1 {
 	font-family: 'Ubuntu', sans-serif;
 	font-style: normal;
   	font-weight: 700;
+	font-size: xx-large; /* set h1 font size relative to base font size of 100% */
+	
+}
 
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-style: normal;
+  	font-weight: 700;
+	font-size: x-large; /* set h2 font size relative to base font size of 100% */
+	
+}
+
+h3 {
+	font-family: 'Ubuntu', sans-serif;
+	font-style: normal;
+  	font-weight: 700;
+	font-size: larger; /* set h1 font size relative to base font size of 100% */
+	
+}
+
+h5 {
+	font-family: 'Ubuntu', sans-serif;
+	font-style: normal;
+  	font-size: 1.2em; /* set h5 font size to 1.2 times the base font size of 100% */
+	font-weight: 700;
+	
 }
 
 header, main, footer {
@@ -24,6 +50,7 @@ header, main, footer {
 header .container, main .container, footer .container {
   max-width: 855px;
   margin: auto;
+  
 }
 
 header {
@@ -32,16 +59,13 @@ header {
 	
 }
 
-header h1 {
+header .left {
 	float: left;
 	width: 570px;
 	
-	
 }
 
-
-
-header nav {
+header .right {
 	float: right;
 	width: 285px;
 	
@@ -50,13 +74,14 @@ header nav {
 main {
 	background: white;
 	overflow: auto;
-	
+
 	
 }
 
 main .left {
 	float: left;
 	width: 570px;
+	
 }
 
 main .right {
@@ -73,15 +98,18 @@ footer {
 footer .contact {
   float: left;
   width: 570px;
+  
 }
 
 footer .sitemap {
   float: right;
   width: 285px;
+  
 }
 
 .sitemap ul{
     width:285px;
+	
 }
 
 
