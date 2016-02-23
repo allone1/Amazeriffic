@@ -68,14 +68,13 @@ header .container, main .container, footer .container {
   max-width: 855px;
   margin: auto;
   padding: 5px 10px 5px 10px;
-  
+    
 }
 
 header {
 	background: white;
 	overflow: auto;
-	padding-right: 10px;	
-	
+		
 }
 
 header .left {
@@ -93,7 +92,7 @@ header .right {
 main {
 	background: white;
 	overflow: auto;
-	padding-right: 10px;
+	
 		
 }
 
@@ -112,8 +111,7 @@ main .right {
 
 footer {
 	overflow: auto;
-	padding-right: 10px;
-	
+		
 }
 
 footer .contact {
@@ -123,7 +121,7 @@ footer .contact {
 }
 
 footer .sitemap {
-float: right;
+	float: right;
 	width: 284px;
 	
 }
